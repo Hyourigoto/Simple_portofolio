@@ -1,0 +1,69 @@
+body{
+    min-height: 2200px;
+    font-family: Verdana;
+}
+
+.jumbotron {
+    padding: 6rem ;
+    transform: translateY(-200px);
+    background-color: rgb(161, 189, 198);
+    
+}
+
+.img-thumbnail{
+    margin-left: 900px;
+    transform: translateY(200px)
+}
+
+#project {
+    background-color: rgb(161, 189, 198);
+}
+
+#contact-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#contact-form button {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ccc;
+    color: #000;
+    border: none;
+}
+section{
+    padding-top: 5rem;
+}
+button{
+    font-style: bold;
+    background-color: gray;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.card{
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    height: 250px;
+}
+.card-text{
+    font-size: 13px;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+}
